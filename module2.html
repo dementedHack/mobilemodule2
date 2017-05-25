@@ -10,23 +10,22 @@
 <body>
 <div data-role="page" id="mainMenuPage">
   <div data-role="header">
-    <h1>Header</h1>
+    <h1>Invoice Master</h1>
   </div>
   <div data-role="content">
     <div data-role="controlgroup">
-        <a href="#uploadInvoicePage" data-role="button">Button</a>
-        <a href="#manageInvoicePage" data-role="button">Button</a>
-        <a href="#" data-role="button">Button</a>
+        <a href="#uploadInvoicePage" data-role="button">Upload Invoice</a>
+        <a href="#manageInvoicePage" data-role="button">Manage Invoices</a>
+        <a href="#aboutPage" data-role="button">About</a>
     </div>
-  		Content 
-    </div>
+  </div>
   <div data-role="footer">
     <h4>Footer</h4>
   </div>
 </div>
 <div data-role="page" id="uploadInvoicePage">
   <div data-role="header">
-	<a href="#mainMenuPage" data-role="button" data-icon="back">Button</a>
+	<a href="#mainMenuPage" data-role="button" data-icon="back">Back</a>
     <h1>Header</h1>
   </div>
   <div data-role="content">
@@ -38,7 +37,23 @@
 </div>
 <div data-role="page" id="manageInvoicePage">
   <div data-role="header">
-	<a href="#mainMenuPage" data-role="button" data-icon="back">Button</a>
+	<a href="#mainMenuPage" data-role="button" data-icon="back">Back</a>
+    <h1>Manage Invoices</h1>
+  </div>
+  <div data-role="content">
+  	<h1>Invoices</h1>
+    <hr>
+    <div id="invoiceItems">
+    	<!-- grab the data from a DB -->
+    </div>
+  </div>
+  <div data-role="footer">
+    <h4>Footer</h4>
+  </div>
+</div>
+<div data-role="page" id="aboutPage">
+  <div data-role="header">
+	<a href="#mainMenuPage" data-role="button" data-icon="back">Back</a>
     <h1>Header</h1>
   </div>
   <div data-role="content">
